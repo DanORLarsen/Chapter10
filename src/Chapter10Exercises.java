@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Chapter10Exercises {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Pick which exercise u want executed: ");
@@ -17,5 +17,8 @@ public class Main {
             Time second = new Time(555550000);
             second.displayTime();
         }
+
+        else
+            System.out.println("☠☣ Invalid input ☣☠");
     }
 }
