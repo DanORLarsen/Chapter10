@@ -43,4 +43,13 @@ public class Time {
         this.minute = (elapsedTime%360000)/60000;
         this.second = ((elapsedTime%360000)%6000)/1000;
     }
+
+    public void displayTime()
+    {
+        System.out.println("Hours   = " + this.hour);
+        System.out.println("Minutes = " + this.minute);
+        System.out.println("Seconds = " + this.second);
+
+    }
+
 }
