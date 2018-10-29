@@ -15,6 +15,9 @@ public class Chapter10Exercises {
             System.out.println("\nsecond");
             Time second = new Time(555550000);
             second.displayTime();
+            first.setTime(555053991);
+            System.out.println("\nfirst reworked");
+            first.displayTime();
         }
 
         if (choice == 7)
